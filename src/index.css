@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Serif+Lao:wght@400;600;700&family=Boogaloo&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Boogaloo", cursive;
+  --font-lao: "Noto Serif Lao", serif;
+  
+  --color-pingu-purple: #A92793;
+  --color-pingu-blue: #079FC3;
+  --color-pingu-blue-light: #B4E3F0;
+  --color-pingu-bg: #E7F8FE;
+  
+  --animate-float: float 5s ease-in-out infinite;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-slate-800 bg-white;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-display tracking-wide;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
