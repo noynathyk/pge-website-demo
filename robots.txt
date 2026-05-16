@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://noynathyk.github.io/pge-website-demo/sitemap.xml
