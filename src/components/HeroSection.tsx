@@ -19,7 +19,7 @@ export default function HeroSection({ t }: { t: any }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-xl lg:text-3xl font-display text-pingu-blue-light mb-4 uppercase tracking-[0.4em] drop-shadow-lg">{t.hero.subtitle}</h2>
+          <h2 className="text-xl lg:text-3xl font-display text-pingu-blue-light mb-4 uppercase drop-shadow-lg">{t.hero.subtitle}</h2>
           <h1 className="text-6xl lg:text-9xl mb-8 leading-tight drop-shadow-2xl">{t.hero.title}</h1>
           <p className="max-w-3xl mx-auto text-lg lg:text-2xl leading-relaxed opacity-95 mb-12 font-medium drop-shadow-lg">
             {t.hero.content}
