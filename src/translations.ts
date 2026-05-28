@@ -37,8 +37,36 @@ export const translations = {
       directorMessage: "A leader who speaks English effectively and can communicate with people around the world is a valuable leader. English is spoken in more than 90 countries around the world, and more than 1 billion people use English as their first and second language. Pingu's English School aims to develop Lao children into children who can speak English fluently, use a variety of vocabulary and motivate listeners. We want to lay the foundation for Lao children to become good leaders in the future. When it comes to developing children into high-quality adults in the future, we need to develop and nurture children from an early age. Especially language learning, as children's brains develop and grow from 0 to 8 years old. The younger the child the better. They will learn faster and more effectively. I strongly believe that the Pingu's English Laos, designed by a group of linguists with 110 years of experience teaching English, will inspire Lao children to have fun, and enjoy learning English effectively and comprehensively.",
     },
     programs: {
-      title: 'Four Levels of Excellence',
-      subtitle: 'Each level builds on the last, taking children from their first English words to confident communication — at their own pace.',
+      title: 'Our Programs',
+      subtitle: 'Choose the perfect path for your child’s educational journey.',
+      totsTab: 'Tots Program',
+      totsAge: 'For students ages 1–3',
+      eltTab: 'ELT Program',
+      eltAge: 'For students ages 3 and up',
+      tots: {
+        title: 'Tots Program',
+        description: 'We believe the first steps into education should be filled with warmth and security. The Tots Program is a unique "bridge" designed for our youngest learners (ages 1–3). By allowing parents to join the classroom initially, we create a safe emotional foundation. Our goal is to transform "separation anxiety" into "classroom curiosity," building the confidence a child needs to eventually stand on their own two feet.',
+        features: [
+          {
+            text: 'The program begins with Parent-Child participation. This phased approach allows for a supportive start, gradually moving toward independent student attendance as confidence builds.',
+            img: './pingu-images/Tots1.webp'
+          },
+          {
+            text: 'Preparation for Full-Time School or Level 1 ELT through structured, age-appropriate development.',
+            img: './pingu-images/Tots2.webp'
+          },
+          {
+            text: 'Through sensory play and social interaction, children naturally develop their first English phonetic foundations. This immersive, hands-on environment makes discovering new sounds an intuitive and joyful experience.',
+            img: './pingu-images/Tots3.webp'
+          },
+          {
+            text: 'A premium, low-ratio environment with a maximum of 2 students per class to ensure total individual attention for every child.',
+            img: './pingu-images/Tots4.webp'
+          }
+        ]
+      },
+      eltTitle: 'Four Levels of Excellence',
+      eltSubtitle: 'Each level builds on the last, taking children from their first English words to confident communication — at their own pace.',
       levels: [
         { name: 'Beginners', badge: 'Level 1', stat: '12 units • 72 lessons', img: './pingu-images/pingu-lvl-1.webp' },
         { name: 'Elementary', badge: 'Level 2', stat: '12 units • 72 lessons', img: './pingu-images/pingu-lvl-2.webp' },
@@ -52,7 +80,7 @@ export const translations = {
         { num: '03', title: 'Writing', desc: 'Writing is a key part of every lesson at Pingu’s English. We guide our students through every step, from the first time a Level 1 student holds a pencil to the complex sentences written by our Level 4 learners. By learning to write well early on, our students gain an important tool for their future success in school.', img: './pingu-images/Pingu-img-5-Writing.webp' },
         { num: '04', title: 'Computer Time', desc: 'We introduce our students to technology and help them develop essential IT skills through engaging educational activities. In today’s digital world, being digitally confident is vital, and we ensure our students are well-prepared for a future that is increasingly online.', img: './pingu-images/Pingu-img-6-ComputerTime.webp' },
         { num: '05', title: 'Song Time', desc: 'We love Song Time! We end every class with a fun Pingu song that students can sing and dance to. Using our dedicated songbooks, children follow along with the lyrics and join in the music. Our main priority is for your child to have FUN and truly ENJOY learning. By making English exciting rather than intimidating, we encourage children to stay curious. Song Time is the perfect way to keep learning active and get our students moving!', img: './pingu-images/Pingu-img-7-SongTime.webp' },
-        { num: '06', title: 'Activity Time', desc: 'Each class offers a variety of engaging activities, combining the Pingu’s English Activity Book with teacher-designed tasks. These sessions are structured to support the development of key skills, including reading, writing, speaking, and problem-solving, in an interactive and supportive learning environment.', img: './pingu-images/Pingu-img-8-ActivityTime.webp' },
+        { num: '06', title: 'Activity Time', desc: 'Activity time looks different in every class. Students enjoy the wide variety of activities and games found in the Pingu’s English activity book, as well as those created by our teachers. This dedicated time allows students to focus on multiple skills, including reading, writing, speaking, and problem-solving.', img: './pingu-images/Pingu-img-8-ActivityTime.webp' },
         { num: '07', title: 'Social Time', desc: 'A huge part of the Pingu’s English experience is social time! From the very second students walk through the door, they are diving into a world of interaction. Students will be conversing with their teachers and peers from all different backgrounds, making every moment a chance to learn and play. It’s the perfect time for them to make new friends and find their confidence while chatting in English together!', img: './pingu-images/Pingu-img-9-SocialTime.webp' }
       ]
     },
@@ -160,7 +188,7 @@ export const translations = {
       learnMore: 'ຂໍ້ມູນເພີ່ມເຕີມ'
     },
     benefits: [
-      { icon: '🌍', title: 'ປະສົບການລະດັບສາກົນ', desc: 'ໂດຍຜ່ານປະສົບການອັນຍາວນານ ແລະ ຄວາມເປັນເລີດດ້ານການສອນພາສາທີ່ມີມາຫຼາຍກວ່າໜຶ່ງສະຕະວັດຂອງ Linguaphone Group ຮ່ວມກັບໂລກແຫ່ງການຮຽນຮູ້ທີ່ແສນມ່ວນຊື່ນຂອງ Pingu’s English.' },
+      { icon: '🌍', title: 'ປະສົບການລະດັບສາກົນ', desc: 'ດ້ວຍປະສົບການ ແລະ ຄວາມເປັນມືອາຊີບໃນການສອນພາສາ ຫຼາຍກວ່າໜຶ່ງສະຕະວັດຂອງ Linguaphone Group ແລະ ໂລກແຫ່ງການຮຽນຮູ້ທີ່ແສນມ່ວນຊື່ນຂອງ Pingu’s English.' },
       { icon: '🎨', title: 'ທັກສະການສ້າງສັນ', desc: 'ເດັກນ້ອຍຈະມີຄວາມໝັ້ນໃຈ, ມີຈິນຕະນາການ ແລະ ຮູ້ຈັກການສະແດງອອກ ຜ່ານການຮຽນຮູ້ສິລະປະ, ການເລົ່າເລື່ອງ, ສຽງເພງ, ການເຕັ້ນ ແລະ ວຽກປະດິດສ້າງຕ່າງໆ.' },
       { icon: '📚', title: 'ພື້ນຖານການສຶກສາ', desc: 'Pingu’s English ໃຫ້ຫຼາຍກວ່າພຽງແຕ່ພາສາ, ແຕ່ພວກເຮົາສ້າງທັກສະຊີວິດທີ່ຈຳເປັນ. ລູກຂອງທ່ານຈະໄດ້ຮຽນຮູ້ທັງ ຄະນິດສາດ, ການອ່ານ-ຂຽນ ແລະ STEM ເພື່ອວາງຮາກຖານທີ່ເຂັ້ມແຂງ ແລະ ສ້າງຄວາມໝັ້ນໃຈໃຫ້ພວກເຂົາກ້າວໄປສູ່ອະນາຄົດ.' },
       { icon: '💡', title: 'ການຮຽນຮູ້ແບບໂຕ້ຕອບ', desc: 'ເດັກນ້ອຍຈະໄດ້ຮຽນຮູ້ຜ່ານຄຳສັບ, ວິດີໂອ ແລະ ຮູບພາບ ໂດຍນຳໃຊ້ສື່ການຮຽນການສອນແບບດິຈິຕອນທີ່ທັນສະໄໝ. ນອກຈາກທັກສະທາງດ້ານພາສາອັງກິດແລ້ວ, ພວກເຂົາຍັງຈະໄດ້ພັດທະນາທັກສະການແກ້ໄຂບັນຫາ, ທັກສະທາງດ້ານອາລົມ ແລະ ທັກສະດ້ານການເຂົ້າສັງຄົມ ເຊິ່ງລ້ວນແຕ່ມີຄວາມສຳຄັນເທົ່າທຽມກັນຕໍ່ການພັດທະນາການຮອບດ້ານຂອງພວກເຂົາ.' },
@@ -178,8 +206,36 @@ export const translations = {
       directorMessage: "ຜູ້ນໍາທີ່ໃຊ້ພາສາອັງກິດໄດ້ຢ່າງມີປະສິດທິພາບ ແລະ ສາມາດສື່ສານກັບຄົນທົ່ວໂລກໄດ້ເປັນຜູ້ນໍາທີ່ຊົງຄຸນຄ່າຢ່າງສະຫງ່າງາມ. ພາສາອັງກິດຖືກໃຊ້ຫຼາຍກ່ວາ 90 ປະເທດທົ່ວໂລກ ແລະ ມີຫຼາຍກ່ວາ 1,000 ລ້ານຄົນທີ່ໃຊ້ພາສາອັງກິດເປັນພາສາແມ່ ແລະ ພາສາທີສອງ. ການສຶກສາພິງກຸມີຈຸດປະສົງໃນການພັດທະນາເດັກນ້ອຍລາວໃຫ້ກາຍເປັນເດັກທີ່ສາມາດເວົ້າພາສາອັງກິດໄດ້ເກັ່ງ, ເວົ້າພາສາອັງກິດໄດ້ຢ່າງລ່ຽນໄຫຼດີ, ສາມາດນໍາໃຊ້ຄໍາສັບຫຼາກຫຼາຍຢ່າງອຸດົມສົມບູນ ແລະ ເວົ້າຢ່າງມີພະລັງສາມາດຈູງໃຈຜູ້ຄົນທີ່ເຂົ້າມາຟັງໄດ້ເພື່ອປູພື້ນຖານສ້າງເດັກນ້ອຍລາວໃຫ້ກາຍເປັນຜູ້ນໍາທີ່ດີໃນອະນາຄົດ. ເມື່ອເວົ້າເຖິງການພັດທະນາເດັກໃຫ້ກາຍເປັນຜູ້ໃຫຍ່ທີ່ມີຄຸນະພາບສູງໃນອະນາຄົດນັ້ນ, ພວກເຮົາຕ້ອງໄດ້ພັດທະນາ ແລະ ສ້າງເດັກຕັ້ງແຕ່ຕອນຍັງນ້ອຍໆໂດຍສະເພາະແມ່ນການຮຽນຮູ້ພາສາ ຍ້ອນວ່າສະໝອງຂອງເດັກນ້ອຍຈະຖືກພັດທະນາ ແລະ ເຕີບໃຫຍ່ຂະຫຍາຍຕົວຕັ້ງແຕ່ຕອນ 0 ປີ ຫາ 8 ປີ. ຍິ່ງນ້ອຍເທົ່າໃດຍິ່ງດີ, ຍິ່ງນ້ອຍເທົ່າໃດຍິ່ງຮຽນຮູ້ໄດ້ໄວ, ຍິ່ງນ້ອຍເທົ່າໃດຍິ່ງເຫັນປະສິດທິຜົນສູງ. ຂ້າພະເຈົ້າມີຄວາມເຊື່ອໝັ້ນຢ່າງແຮງກ້າວ່າການສຶກສາແບບພິງກຸທີ່ຖືກອອກແບບໂດຍກຸ່ມລິງກົວໂຟນທີ່ມີປະສົບການສອນພາສາອັງກິດມາເປັນເວລາ 110 ປີ ຈະສ້າງແຮງບັນດານໃຈປຸກຄວາມກະຕືລືລົ້ນໃຫ້ເດັກນ້ອຍລາວມີຄວາມສະໜຸກສະໜານ, ເພີດເພີນ ແລະ ມ່ວນຊື່ນໃນການຮຽນຮູ້ພາສາອັງກິດໄດ້ຢ່າງເຂົ້າໃຈ ແລະ ມີປະສິດທິພາບສູງ.",
     },
     programs: {
-      title: '4 ລະດັບຫຼັກສູດຮຽນພາສາອັງກິດຂອງພິນກຸ',
-      subtitle: 'ແຕ່ລະລະດັບສ້າງຂຶ້ນເພື່ອໃຫ້ເດັກນ້ອຍຮຽນຮູ້ຕາມຄວາມສາມາດຂອງຕົນເອງ.',
+      title: 'ຫຼັກສູດຂອງພວກເຮົາ',
+      subtitle: 'ເລືອກເສັ້ນທາງການຮຽນຮູ້ທີ່ເໝາະສົມທີ່ສຸດສຳລັບລູກຫຼານຂອງທ່ານ.',
+      totsTab: 'ຫຼັກສູດ Tots Program',
+      totsAge: 'ສໍາລັບນັກຮຽນອາຍຸ 1–3 ປີ',
+      eltTab: 'ຫຼັກສູດ ELT Program',
+      eltAge: 'ສໍາລັບນັກຮຽນອາຍຸ 3 ປີຂຶ້ນໄປ',
+      tots: {
+        title: 'Tots Program',
+        description: 'ພວກເຮົາເຊື່ອວ່າບາດກ້າວທຳອິດໃນການສຶກສາຄວນເຕັມໄປດ້ວຍຄວາມອົບອຸ່ນ ແລະ ຄວາມປອດໄພ. ຫຼັກສູດ Tots Program ແມ່ນ "ຂົວເຊື່ອມຕໍ່" ທີ່ເປັນເອກະລັກທີ່ຖືກອອກແບບມາສຳລັບຜູ້ຮຽນທີ່ນ້ອຍທີ່ສຸດຂອງພວກເຮົາ (ອາຍຸ 1-3 ປີ). ໂດຍການອະນຸຍາດໃຫ້ຜູ້ປົກຄອງເຂົ້າຮ່ວມໃນຫ້ອງຮຽນໃນໄລຍະທຳອິດ, ພວກເຮົາສ້າງພື້ນຖານຄວາມຮູ້ສຶກທີ່ປອດໄພ. ເປົ້າໝາຍຂອງພວກເຮົາຄືການປ່ຽນ "ຄວາມກັງວົນໃນການແຍກຈາກຜູ້ປົກຄອງ" ໃຫ້ກາຍເປັນ "ຄວາມຢາກຮຽນຮູ້ໃນຫ້ອງຮຽນ", ສ້າງຄວາມໝັ້ນໃຈໃຫ້ກັບເດັກນ້ອຍເພື່ອທີ່ຈະສາມາດຢືນໄດ້ດ້ວຍຕົນເອງໃນອະນາຄົດ.',
+        features: [
+          {
+            text: 'ຫຼັກສູດນີ້ແມ່ນອະນຸຍາດໃຫ້ຜູ້ປົກຄອງເຂົ້າຮ່ວມຫ້ອງຮຽນນຳນ້ອງໆໄດ້ໃນຊ່ວງທຳອິດ ເນື່ອງຈາກພວກເຮົາເນັ້ນການປັບຕົວແບບຄ່ອຍເປັນຄ່ອຍໄປເພື່ອຊ່ວຍໃຫ້ນ້ອງໆມີຄວາມຊຶ້ງເຄີຍ ແລະ ໝັ້ນໃຈ ພ້ອມທີ່ຈະເຂົ້າຮຽນດ້ວຍຕົນເອງໃນຂັ້ນຕໍ່ໄປ.',
+            img: './pingu-images/Tots1.webp'
+          },
+          {
+            text: 'ເພື່ອຕຽມຄວາມພ້ອມໃຫ້ນ້ອງໆກ່ອນເຂົ້າໂຮງຮຽນ ຫຼື ກຽມກ່ອນຈະໄປຮຽນພາສາອັງກິດໃນຂັ້ນຕໍ່ໄປ (Level 1 ELT) ຜ່ານການພັດທະນາທັກສະຕາມໄວຢ່າງເປັນລະບົບ.',
+            img: './pingu-images/Tots2.webp'
+          },
+          {
+            text: 'ນ້ອງໆຈະໄດ້ພັດທະນາພື້ນຖານການອອກສຽງພາສາອັງກິດຢ່າງເປັນທຳມະຊາດຜ່ານການຫຼິ້ນທີ່ໄດ້ສຳຜັດຕົວຈິງ ແລະ ການເຂົ້າສັງຄົມຮ່ວມກັບໝູ່ເພື່ອນ. ສະພາບແວດລ້ອມທີ່ເນັ້ນການລົງມືເຮັດນີ້ ຈະຊ່ວຍໃຫ້ການຮຽນຮູ້ສຽງໃໝ່ໆ ກາຍເປັນເລື່ອງທີ່ງ່າຍ ແລະ ໜ້າຕື່ນເຕັ້ນສຳລັບເດັກນ້ອຍ.',
+            img: './pingu-images/Tots3.webp'
+          },
+          {
+            text: 'ຫ້ອງຮຽນລະດັບພິເສດທີ່ຈຳກັດນັກຮຽນສູງສຸດພຽງ 2 ຄົນຕໍ່ຫ້ອງເພື່ອໃຫ້ຄູສາມາດສິດສອນ ແລະ ເອົາໃຈໃສ່ນ້ອງໆ ແຕ່ລະຄົນໄດ້ຢ່າງໃກ້ຊິດ ແລະ ທົ່ວເຖິງທີ່ສຸດ.',
+            img: './pingu-images/Tots4.webp'
+          }
+        ]
+      },
+      eltTitle: '4 ລະດັບຫຼັກສູດຮຽນພາສາອັງກິດຂອງພິນກຸ',
+      eltSubtitle: 'ແຕ່ລະລະດັບສ້າງຂຶ້ນເພື່ອໃຫ້ເດັກນ້ອຍຮຽນຮູ້ຕາມຄວາມສາມາດຂອງຕົນເອງ.',
       levels: [
         { name: 'ຜູ້ເລີ່ມຕົ້ນ', badge: 'ລະດັບ 1', stat: '12 ໜ່ວຍ • 72 ບົດ', img: './pingu-images/pingu-lvl-1.webp' },
         { name: 'ພື້ນຖານ', badge: 'ລະດັບ 2', stat: '12 ໜ່ວຍ • 72 ບົດ', img: './pingu-images/pingu-lvl-2.webp' },
@@ -192,8 +248,8 @@ export const translations = {
         { num: '02', title: 'ເວລາເລົ່ານິທານ', desc: 'ນ້ອງໆທຸກຄົນຕ່າງກໍລໍຄອຍຊ່ວງເວລາແຫ່ງການເລົ່ານິທານ! ດ້ວຍປຶ້ມນິທານທີ່ອອກແບບມາຢ່າງສວຍງາມ ແລະ ໜ້າຕື່ນຕາຕື່ນໃຈ ເຊິ່ງເປັນເລື່ອງລາວຂອງ Pingu ຈະຊ່ວຍຈຸດປະກາຍໃຫ້ນ້ອງໆມີຄວາມສຸກກັບການອ່ານ. ພວກເຮົາໃຫ້ຄວາມສຳຄັນກັບການຮຽນຮູ້ທີ່ຮອບດ້ານ ເພື່ອໃຫ້ນ້ອງໆເກັ່ງໃນທຸກທັກສະ ໂດຍສະເພາະແມ່ນການປູພື້ນຖານການອ່ານທີ່ຈະຕິດໂຕເຂົາເຈົ້າໄປຕະຫຼອດ.', img: './pingu-images/Pingu-img-4-StoryTime.webp' },
         { num: '03', title: 'ການຂຽນ', desc: 'ການຂຽນແມ່ນພາກສ່ວນສຳຄັນໃນທຸກໆບົດຮຽນຂອງພວກເຮົາ. ພວກເຮົານຳພາເດັກໆໃຫ້ພັດທະນາໄປເທື່ອລະຂັ້ນ, ເລີ່ມຕັ້ງແຕ່ການເຝິກຈັບສໍໃນ Level 1 ໄປຈົນເຖິງການແຕ່ງປະໂຫຍກພາສາອັງກິດທີ່ມີຄວາມຫຼາກຫຼາຍ ແລະ ສົມບູນແບບໃນ Level 4. ການເຝິກຂຽນໃຫ້ເກັ່ງຕັ້ງແຕ່ຕອນຍັງນ້ອຍ ຈະຊ່ວຍໃຫ້ນ້ອງໆມີທັກສະຕິດໂຕທີ່ດີ ແລະ ຈະສ້າງຄວາມສຳເລັດໃນການຮຽນໄດ້ໃນໄລຍະຍາວ.', img: './pingu-images/Pingu-img-5-Writing.webp' },
         { num: '04', title: 'ເວລາຄອມພິວເຕີ', desc: 'ພວກເຮົາແນະນຳໃຫ້ເດັກໆໄດ້ຮູ້ຈັກກັບເຕັກໂນໂລຊີ ແລະ ຊ່ວຍພັດທະນາທັກສະດ້ານໄອທີ (IT) ທີ່ຈຳເປັນ ຜ່ານກິດຈະກຳການຮຽນຮູ້ທີ່ມ່ວນຊື່ນ. ໃນໂລກຍຸກດິຈິຕອນປັດຈຸບັນນີ້ ການມີຄວາມຊຳນານດ້ານເຕັກໂນໂລຊີແມ່ນສິ່ງທີ່ສຳຄັນຫຼາຍ, ພວກເຮົາຈຶ່ງມຸ່ງໝັ້ນທີ່ຈະກຽມຄວາມພ້ອມໃຫ້ນ້ອງໆ ສຳລັບອະນາຄົດທີ່ທຸກຢ່າງເຊື່ອມຕໍ່ຜ່ານທາງອອນລາຍ.', img: './pingu-images/Pingu-img-6-ComputerTime.webp' },
-        { num: '05', title: 'ເວລາຮ້ອງເພງ', desc: 'ພວກເຮົາຮັກຊ່ວງເວລາແຫ່ງສຽງເພງ! ພວກເຮົາປິດທ້າຍທຸກໆຊົ່ວໂມງຮຽນດ້ວຍບົດເພງ Pingu ທີ່ມ່ວນຊື່ນ ເພື່ອໃຫ້ນ້ອງໆໄດ້ຮ້ອງ ແລະ ເຕັ້ນໄປຕາມຈັງຫວະ. ດ້ວຍປຶ້ມເພງປະກອບການຮຽນ, ນ້ອງໆສາມາດຮ້ອງເພງ ແລະ ເຝິກອ່ານເນື້ອຮ້ອງໄປພ້ອມໆກັນໄດ້. ເປົ້າໝາຍຫຼັກຂອງພວກເຮົາແມ່ນຢາກໃຫ້ລູກຫຼານຂອງທ່ານມີຄວາມສຸກ ແລະ ເພີດເພີນໄປກັບການຮຽນຮູ້. ພວກເຮົາປ່ຽນພາສາອັງກິດໃຫ້ເປັນເລື່ອງທີ່ມ່ວນຊື່ນ ແລະ ບໍ່ໜ້າຢ້ານ, ເພື່ອເປັນການກະຕຸ້ນໃຫ້ເດັກໆຢາກຮຽນຮູ້ຕໍ່ໄປ. ຊ່ວງເວລາແຫ່ງສຽງເພງນີ້ເອງ ທີ່ຈະຊ່ວຍໃຫ້ການຮຽນມີຊີວິດຊີວາ ແລະ ເຮັດໃຫ້ນ້ອງໆໄດ້ເຄື່ອນໄຫວຮ່າງກາຍໄດ້ຢ່າງເຕັມທີ່.', img: './pingu-images/Pingu-img-7-SongTime.webp' },
-        { num: '06', title: 'ເວລາກິດຈະກໍາ', desc: 'ໃນແຕ່ລະຊົ່ວໂມງຮຽນກໍຈະມີກິດຈະກຳທີ່ຫຼາກຫຼາຍ ແລະ ໜ້າສົນໃຈ ໂດຍມີການນຳໃຊ້ປຶ້ມກິດຈະກຳ (Activity Book) ຂອງ Pingu’s English ຄວບຄູ່ໄປກັບບົດຮຽນທີ່ຖືກອອກແບບໂດຍຄູສອນ. ບົດຮຽນເຫຼົ່ານີ້ຖືກຈັດວາງຢ່າງເປັນລະບົບເພື່ອສົ່ງເສີມການພັດທະນາທັກສະທີ່ສຳຄັນເຊັ່ນ: ການອ່ານ, ການຂຽນ, ການເວົ້າ ແລະ ການແກ້ໄຂບັນຫາ ທ່າມກາງສະພາບແວດລ້ອມການຮຽນຮູ້ທີ່ເນັ້ນການມີສ່ວນຮ່ວມ ແລະ ການສະໜັບສະໜູນເຊິ່ງກັນ ແລະ ກັນ.', img: './pingu-images/Pingu-img-8-ActivityTime.webp' },
+        { num: '05', title: 'ເວລາຮ້ອງເພງ', desc: 'ພວກເຮົາຮັກຊ່ວງເວລາແຫ່ງສຽງເພງ! ພວກເຮົາປິດທ້າຍທຸກໆຊົ່ວໂມງຮຽນດ້ວຍບົດເພງ Pingu ທີ່ມ່ວນຊື່ນ ເພື່ອໃຫ້ນ້ອງໆໄດ້ຮ້ອງ ແລະ ເຕັ້ນໄປຕາມຈັງຫວະ. ດ້ວຍປຶ້ມເພງປະກອບການຮຽນ, ນ້ອງໆສາມາດຮ້ອງເພງ ແລະ ເຝິກອ່ານເນື້ອງຮ້ອງໄປພ້ອມໆກັນໄດ້. ເປົ້າໝາຍຫຼັກຂອງພວກເຮົາແມ່ນຢາກໃຫ້ລູກຫຼານຂອງທ່ານມີຄວາມສຸກ ແລະ ເພີດເພີນໄປກັບການຮຽນຮູ້. ພວກເຮົາປ່ຽນພາສາອັງກິດໃຫ້ເປັນເລື່ອງທີ່ມ່ວນຊື່ນ ແລະ ບໍ່ໜ້າຢ້ານ, ເພື່ອເປັນການກະຕຸ້ນໃຫ້ເດັກໆຢາກຮຽນຮູ້ຕໍ່ໄປ. ຊ່ວງເວລາແຫ່ງສຽງເພງນີ້ເອງ ທີ່ຈະຊ່ວຍໃຫ້ການຮຽນມີຊີວິດຊີວາ ແລະ ເຮັດໃຫ້ນ້ອງໆໄດ້ເຄື່ອນໄຫວຮ່າງກາຍໄດ້ຢ່າງເຕັມທີ່.', img: './pingu-images/Pingu-img-7-SongTime.webp' },
+        { num: '06', title: 'ເວລາກິດຈະກໍາ', desc: 'ຊົ່ວໂມງກິດຈະກຳຂອງແຕ່ລະຫ້ອງຮຽນແມ່ນມີຄວາມຫຼາກຫຼາຍ ແລະ ແຕກຕ່າງກັນໄປ. ພວກນ້ອງໆຈະໄດ້ມ່ວນຊື່ນໄປກັບເກມ ແລະ ກິດຈະກຳຕ່າງໆທີ່ມີຢູ່ໃນປຶ້ມແບບຮຽນຂອງ Pingu’s English ລວມທັງກິດຈະກຳທີ່ຄູ-ອາຈານໄດ້ສ້າງສັນຂຶ້ນມາໂດຍສະເພາະ. ການຮຽນຮູ້ຜ່ານກິດຈະກຳນີ້ຈະຊ່ວຍໃຫ້ນ້ອງໆ ໄດ້ພັດທະນາທັກສະຮອບດ້ານ ບໍ່ວ່າຈະເປັນການອ່ານ, ການຂຽນ, ການເວົ້າ ແລະ ທັກສະການແກ້ໄຂບັນຫາ.', img: './pingu-images/Pingu-img-8-ActivityTime.webp' },
         { num: '07', title: 'ເວລາເຂົ້າສັງຄົມ', desc: 'ການສ້າງປະຕິສຳພັນທາງສັງຄົມແມ່ນພາກສ່ວນທີ່ສຳຄັນທີ່ສຸດຂອງຫຼັກສູດຂອງພວກເຮົາ! ນັກຮຽນຈະໄດ້ເລີ່ມສື່ສານ ແລະ ຮຽນຮູ້ການເຂົ້າສັງຄົມທັນທີນັບຕັ້ງແຕ່ວິນາທີທຳອິດທີ່ກ້າວເຂົ້າປະຕູມາ. ນັກຮຽນຈະໄດ້ສົນທະນາຮ່ວມກັບຄູອາຈານ ແລະ ໝູ່ເພື່ອນທີ່ມາຈາກທຸກພື້ນຖານທີ່ຫຼາກຫຼາຍ. ນີ້ຄືໂອກາດອັນດີທີ່ເຂົາເຈົ້າຈະໄດ້ສ້າງມິດພາບໃໝ່ໆ ແລະ ເພີ່ມຄວາມໝັ້ນໃຈໃນການສື່ສານພາສາອັງກິດຮ່ວມກັບໝູ່ເພື່ອນຢ່າງເປັນທຳມະຊາດ.', img: './pingu-images/Pingu-img-9-SocialTime.webp' }
       ]
     },
@@ -203,10 +259,10 @@ export const translations = {
       members: [
         { name: 'ຄູ ເມ (May)', role: 'ຜູ້ອໍານວຍການ', bio: 'I never believed the people around me when they said I was meant to be a teacher. But destiny had other plans — it gently guided me toward teaching, and that\'s when I realized it was in my DNA all along.', img: './pingu-images/Pingu-teacher-May-1.webp' },
         { name: 'ຄູ ປິ່ນ (Pin)', role: 'ຜູ້ຈັດການຝ່າຍບໍລິການ', bio: 'A teacher\'s joy doesn\'t lie in praise, but in seeing students grow with knowledge, skills, confidence, and true happiness in their own path.', img: './pingu-images/Pingu-teacher-Pin-2.webp' },
-        { name: 'ຄູ ເຈມມີ (Jamie)', role: 'ຄູສອນ', bio: 'It is because I love children. It is because I want to make an impact. Most importantly, it is because I CARE — and that is why I am a teacher.', img: './pingu-images/Pingu-teacher-Jamie-3.webp' },
+        { name: 'ຄູ ເຈມີ້ (Jamie)', role: 'ຄູສອນ', bio: 'It is because I love children. It is because I want to make an impact. Most importantly, it is because I CARE — and that is why I am a teacher.', img: './pingu-images/Pingu-teacher-Jamie-3.webp' },
         { name: 'ຄູ ໂມເນັດ (Monette)', role: 'ຄູສອນ', bio: 'I\'ve always found joy in teaching — not just in sharing knowledge, but in building confidence and sparking inspiration in every student I meet.', img: './pingu-images/Pingu-teacher-Montete-4.webp' },
         { name: 'ຄູ ນາຕາເລຍ (Natalia)', role: 'ຄູສອນ', bio: 'To me, being a teacher means sparking curiosity and helping each child find their own path. I believe that children grow in confidence and a love for learning.', img: './pingu-images/Pingu-teacher-Natalia-5.webp' },
-        { name: 'ຄູ ເນຣີ (Nery)', role: 'ຄູສອນ', bio: 'To be a teacher is not merely to share knowledge, but to sow the seeds of humility and empathy — nurturing hearts to grow into kinder souls.', img: './pingu-images/Pingu-teacher-Nery-6.webp' },
+        { name: 'ຄູ ແມຣີ້ (Nery)', role: 'ຄູສອນ', bio: 'To be a teacher is not merely to share knowledge, but to sow the seeds of humility and empathy — nurturing hearts to grow into kinder souls.', img: './pingu-images/Pingu-teacher-Nery-6.webp' },
         { name: 'ຄູ ນົກ (Nok)', role: 'ຜູ້ຊ່ວຍຄູ', bio: 'I became a teacher to help others pursue their dreams and shape their future, and along the way, I have found a joy I never expected.', img: './pingu-images/Pingu-teacher-Nok-7.webp' },
         { name: 'ຄູ ອາລີສ (Alice)', role: 'ຜູ້ຊ່ວຍຄູ', bio: 'Teaching is more than sharing knowledge — it\'s walking alongside children as they grow, guiding them through the real lessons of life.', img: './pingu-images/Pingu-teacher-Alice-8.webp' },
         { name: 'ຄູ ມີນາ (Meenar)', role: 'ຜູ້ຊ່ວຍຄູ', bio: 'Teaching with heart, inspired by the love I have for children and teaching, brings me joy through the smiles of my students.', img: './pingu-images/Pingu-teacher-Meenar-9.webp' }
@@ -263,7 +319,7 @@ export const translations = {
       },
       { 
         title: 'ນັກຮຽນ', 
-        desc: "ນັກຮຽນຄືເຫດຜົນທີ່ພວກເຮົາສິດສອນ. ໃນທຸກໆມື້, ພວກເຮົາອຸທິດຕົນເພື່ອການເຕີບໃຫຍ່ຂອງພວກເຂົາ ເພາະນັກຮຽນທຸກຄົນຄືຄວາມພາກພູມໃຈ ແລະ ຄືອະນາຄົດຂອງໂລກ.", 
+        desc: "ເພາະນັກຮຽນຄືຫົວໃຈສໍາຄັນໃນການສອນຂອງພວກເຮົາ. ພວກເຮົາທຸ່ມເທທັງກາຍແລະໃຈທຸກໆມື້ເພື່ອໃຫ້ນ້ອງໆໄດ້ພັດທະນາຕົນເອງ ເພາະເດັກນ້ອຍເຫຼົ່ານີ້ຄືຄວາມພາກພູມໃຈ ແລະ ຄືອະນາຄົດຂອງພວກເຮົາ. ນອກຈາກຄວາມຮູ້ໃນຫ້ອງຮຽນແລ້ວ, ພວກເຮົາຍັງຄອຍອົບຮົມບົ່ມສອນ, ຫຼໍ່ຫຼອມຈິດໃຈ, ແລະ ພ້ອມທີ່ຈະນຳພານ້ອງໆໄປສູ່ຄວາມສຳເລັດໃນວັນຂ້າງໜ້າ.", 
         img: './pingu-images/Students.webp', 
         link: '#students',
         cta: 'ນັກຮຽນຂອງພວກເຮົາ'

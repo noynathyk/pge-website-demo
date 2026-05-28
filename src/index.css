@@ -37,6 +37,11 @@
   .lang-lo [class*="tracking-"] {
     letter-spacing: normal !important;
   }
+
+  /* Prevent Lao text clipping due to tight line height in headings and badges */
+  .lang-lo .leading-none {
+    line-height: 1.35 !important;
+  }
 }
 
 @keyframes float {
