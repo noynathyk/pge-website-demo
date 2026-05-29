@@ -6,7 +6,7 @@ import { defineConfig, loadEnv } from 'vite';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
-    base: '/pge-website-demo/',
+    base: process.env.VITE_BASE_PATH || '/', // Use '/' for CloudCannon, or '/pge-website-demo/' if deploying to GH Pages
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

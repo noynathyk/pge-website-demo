@@ -1,0 +1,15 @@
+# CloudCannon Configuration File
+# This file helps CloudCannon understand how to build and host your Vite React application.
+
+# The command used to build your static site.
+build_command: npm run build
+
+# The directory where your built site is output.
+output: dist
+
+# The source directory of your project.
+source: .
+
+# (Optional) If you plan to use CloudCannon's visual CMS features in the future,
+# you can define data paths, collections, and component structures here.
+# For a standard React + Vite app, the above settings are sufficient to get it deployed.
