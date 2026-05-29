@@ -25,7 +25,7 @@ const ProgramsSection = memo(function ProgramsSection({ t }: { t: any }) {
           >
             <div className="w-16 h-16 sm:w-20 sm:h-20 flex-shrink-0 bg-white rounded-3xl p-2 shadow-sm flex items-center justify-center">
               <img
-                src="./pingu-images/Logo.1-Tots Program.png"
+                src="./pingu-images/Logo.1-Tots Program.webp"
                 className="w-full h-full object-contain"
                 alt="Tots Logo"
               />
@@ -51,7 +51,7 @@ const ProgramsSection = memo(function ProgramsSection({ t }: { t: any }) {
           >
             <div className="w-16 h-16 sm:w-20 sm:h-20 flex-shrink-0 bg-white rounded-3xl p-2 shadow-sm flex items-center justify-center">
               <img
-                src="./pingu-images/Logo.2-ELT Program.png"
+                src="./pingu-images/Logo.2-ELT Program.webp"
                 className="w-full h-full object-contain"
                 alt="ELT Logo"
               />
@@ -81,12 +81,12 @@ const ProgramsSection = memo(function ProgramsSection({ t }: { t: any }) {
               <div className="flex flex-col items-center text-center max-w-4xl mx-auto mb-16">
                 <div className="w-48 sm:w-60 mb-8 select-none">
                   <img
-                    src="./pingu-images/Logo.1-Tots Program.png"
+                    src="./pingu-images/Logo.1-Tots Program.webp"
                     className="w-full h-auto object-contain"
                     alt="Tots Logo Large"
                   />
                 </div>
-                <p className="text-xl sm:text-2xl text-slate-600 leading-relaxed font-bold">
+                <p className="text-xl sm:text-2xl text-slate-600 leading-relaxed font-medium text-justify">
                   {t.programs.tots.description}
                 </p>
               </div>
@@ -109,7 +109,7 @@ const ProgramsSection = memo(function ProgramsSection({ t }: { t: any }) {
                         <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-orange-500 text-white font-black text-xl shadow-md">
                           {idx + 1}
                         </div>
-                        <p className="text-xl lg:text-2xl text-slate-800 leading-relaxed font-bold">
+                        <p className="text-xl lg:text-2xl text-slate-800 leading-relaxed">
                           {feature.text}
                         </p>
                       </div>

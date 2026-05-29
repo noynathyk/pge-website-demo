@@ -6,7 +6,7 @@ export default function HeroSection({ t }: { t: any }) {
       <div className="absolute inset-0 -z-10 bg-black">
         <img 
           src="./pingu-images/Homepage-intro-banner.webp" 
-          className="w-full h-full object-cover opacity-90" 
+          className="w-full h-full object-cover object-[30%_center] lg:object-center opacity-90" 
           alt="Hero Background"
           fetchPriority="high"
         />
