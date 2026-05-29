@@ -14,7 +14,7 @@ export const translations = {
     hero: {
       title: "Pingu\'s English Laos",
       subtitle: "Premium UK Curriculum",
-      content: "Pingu\'s English is a global education brand from the UK based Linguaphone Group. Our award winning program nurtures kids' development through first class courses designed alongside Kingston University London for children aged 3 to 10.",
+      content: "Pingu's English is a global education brand from the UK-based Linguaphone Group. Developed in collaboration with Kingston University London, the Pingu's English program nurtures children's development through engaging, high-quality learning experiences. Designed for children aged 18 months to 10 years.",
       cta: 'Book a Free Trial Class',
       learnMore: 'Learn More'
     },
@@ -101,16 +101,11 @@ export const translations = {
     },
     parents: {
       title: 'Pingu Parents',
-      tipsTitle: 'Tips for Parents',
-      tips: [
-        { title: 'Tip 1: Head Start', desc: "Give your little one a head start in life with Pingu\'s English, an innovative International Kindergarten and English Language Teaching program for kids aged 3 to 9+.", img: './pingu-images/pingu-parent-1.webp' },
-        { title: 'Tip 2: Open Doors', desc: "Enable your child to communicate effortlessly in a language spoken by over 1.5 billion people in 94 countries. Open their eyes to a whole new world of education, culture and business potential.", img: './pingu-images/pingu-parent-2.webp' },
-        { title: 'Tip 3: Practice at Home', desc: "Help your child improve their English skills by practising with them at home by encouraging homework, reading an English story, or watching a Pingu episode together.", img: './pingu-images/pingu-parent-3.webp' }
-      ],
-      testimonial: "Pingu\'s English School has been a wonderful experience for my child. The teachers are incredibly supportive, and the play based learning approach makes every lesson exciting. My son\'s confidence in speaking English has grown tremendously in just a few months!",
-      testimonials: [
-        { stars: 5, quote: "As one of Pingu\'s educators, I am highly impressed with the lesson plans, materials and environment. The children love the lessons and I\'m pleased to say we have seen major improvement in confidence and spoken English.", author: "Parent Review" },
-        { stars: 5, quote: "Pingu is a wonderful English school. My son really loves Pingu, he always tells me that he wants to study at Pingu everyday, he is excited to see Pingu every Wednesday.", author: "Parent Review" }
+      tipsTitle: 'Review from Parents',
+      reviews: [
+        "Pingu\'s English School has been a wonderful experience for my child. The teachers are incredibly supportive, and the play based learning approach makes every lesson exciting. My son\'s confidence in speaking English has grown tremendously in just a few months!",
+        "My child absolutely loves it here and looks forward to class every week, constantly talking about the teachers! I never expected such fast progress, but watching the school's video updates, I was amazed by how many vocabulary words they’ve already learned. Seeing my child smile throughout every lesson brings me the greatest joy as a parent. Thank you, Pingu's English, for inspiring children to love learning English!",
+        "This is such a fun place to learn English because they offer a wonderful variety of activities that kids love, from interactive games to singing and dancing. Most importantly, learning directly with Native English-speaking teachers helps children naturally absorb and master the correct accent from a very young age. Since my grandchild (niece/nephew) started classes here, I can clearly see how much they enjoy it. They have become far more confident, expressive, and their English speaking skills have improved noticeably."
       ]
     },
     students: {
@@ -183,7 +178,7 @@ export const translations = {
     hero: {
       title: "Pingu\'s English Laos",
       subtitle: "ຫຼັກສູດມາດຕະຖານສາກົນຈາກປະເທດອັງກິດ",
-      content: "ຫຼັກສູດພາສາອັງກິດພິນກຸແມ່ນຫຼັກສູດສາກົນຈາກປະເທດອັງກິດໂດຍກົງ, ສ້າງຂຶ້ນເພື່ອພັດທະນາພາສາອັງກິດໃຫ້ແກ່ເດັກຊ່ວງອາຍຸ 3 ຫາ 10 ປີ.",
+      content: "Pingu's English ແມ່ນແບຣນການສຶກສາລະດັບສາກົນ ໃນເຄືອຂອງ Linguaphone Group ຈາກປະເທດອັງກິດ. ຫຼັກສູດຂອງ Pingu's English ໄດ້ຮັບການພັດທະນາພາຍໃຕ້ການຮ່ວມມືຂອງກຸ່ມບໍລິສັດແມ່ Linguaphone ກັບມະຫາວິທະຍາໄລ Kingston University London ເພື່ອສົ່ງເສີມການການຮຽນຮູ້ຂອງເດັກ ຜ່ານປະສົບການການຮຽນທີ່ມີຄຸນະພາບສູງ ແລະ ດຶງດູດຄວາມສົນໃຈ. ເຊິ່ງຖືກອອກແບບມາສຳລັບເດັກອາຍຸລະຫວ່າງ 18 ເດືອນ ຫາ 10 ປີ.",
       cta: 'ລົງທະບຽນຮຽນທົດລອງຟຣີ',
       learnMore: 'ຂໍ້ມູນເພີ່ມເຕີມ'
     },
@@ -270,16 +265,11 @@ export const translations = {
     },
     parents: {
       title: 'ພໍ່ແມ່ນັກຮຽນ',
-      tipsTitle: 'ຄຳແນະນຳສຳລັບຜູ້ປົກຄອງ',
-      tips: [
-        { title: 'ຄຳແນະນຳ 1: ໃຫ້ລູກໄດ້ເລີ່ມຕົ້ນ', desc: 'ໃຫ້ລູກຂອງທ່ານໄດ້ເລີ່ມຕົ້ນຮຽນພາສາອັງກິດ ດ້ວຍ Pingu\'s English, ຫຼັກສູດສາກົນສໍາລັບເດັກ 3 ຫາ 9+ ປີ.', img: './pingu-images/pingu-parent-1.webp' },
-        { title: 'ຄຳແນະນຳ 2: ເປີດໂລກກ້ວາງ', desc: 'ຊ່ວຍໃຫ້ລູກສາມາດສື່ສານໄດ້ຢ່າງຄ່ອງໃນພາສາທີ່ ຫຼາຍກວ່າ 1.5 ຕື້ຄົນ ໃຊ້ ໃນ 94 ປະເທດ ທົ່ວໂລກ.', img: './pingu-images/pingu-parent-2.webp' },
-        { title: 'ຄຳແນະນຳ 3: ຝຶກຢູ່ເຮືອນ', desc: 'ຊ່ວຍລູກຝຶກທີ່ເຮືອນ ໂດຍໃຫ້ລູກເຮັດການບ້ານ, ອ່ານໜັງສືພາສາອັງກິດ, ຫຼືຮ່ວມກັນເບິ່ງ Pingu ດ້ວຍກັນ.', img: './pingu-images/pingu-parent-3.webp' }
-      ],
-      testimonial: "ໂຮງຮຽນພາສາອັງກິດພິນກຸ ເປັນປະສົບການທີ່ດີເລີດສໍາລັບລູກຂອງຂ້ອຍ. ຄູອາຈານໃຫ້ການສະໜັບສະໜູນເປັນຢ່າງດີ ແລະ ວິທີການຮຽນຜ່ານການຫຼິ້ນເຮັດໃຫ້ທຸກບົດຮຽນໜ້າມ່ວນ. ຄວາມໝັ້ນໃຈໃນການເວົ້າພາສາອັງກິດຂອງລູກຊາຍຂ້ອຍເພີ່ມຂຶ້ນຫຼາຍພາຍໃນເວລາພຽງບໍ່ເທົ່າໃດເດືອນ!",
-      testimonials: [
-        { stars: 5, quote: "ຮູ້ສຶກວ່າລູກມັກ ແລະ ຢາກໄປຮຽນທຸກອາທິດ. ຂອບໃຈ ໂຮງຮຽນ ພິງກູ ທີ່ເຮັດໃຫ້ເດັກມ່ວນ.", author: "ຄໍາຕິຊົມ" },
-        { stars: 5, quote: "ເປັນບ່ອນຮຽນພາສາອັງກິດທີ່ມ່ວນເພາະມີກິດຈະກໍາທີ່ເດັກນ້ອຍມັກຫລາກຫລາຍຮູບແບບ ບໍ່ວ່າຈະເປັນການຫລິ້ນເກມ, ຟັງເພງ, ເຕັ້ນ... ທີ່ສໍາຄັນແມ່ນໄດ້ຮຽນກັບຄູ Native ຊ່ວຍໃຫ້ເດັກໄດ້ຈື່ຈໍາສໍານຽງທີ່ຖືກຕ້ອງ.", author: "ຄໍາຕິຊົມ" }
+      tipsTitle: 'ຣີວິວຈາກຜູ້ປົກຄອງ',
+      reviews: [
+        "ໂຮງຮຽນພາສາອັງກິດພິນກຸ ເປັນປະສົບການທີ່ດີເລີດສໍາລັບລູກຂອງຂ້ອຍ. ຄູອາຈານໃຫ້ການສະໜັບສະໜູນເປັນຢ່າງດີ ແລະ ວິທີການຮຽນຜ່ານການຫຼິ້ນເຮັດໃຫ້ທຸກບົດຮຽນໜ້າມ່ວນ. ຄວາມໝັ້ນໃຈໃນການເວົ້າພາສາອັງກິດຂອງລູກຊາຍຂ້ອຍເພີ່ມຂຶ້ນຫຼາຍພາຍໃນເວລາພຽງບໍ່ເທົ່າໃດເດືອນ!",
+        "ຮູ້ສຶກວ່າລູກມັກ ແລະ ຢາກໄປຮຽນທຸກອາທິດເລີຍ ເວົ້າຊື່ຄູທຸກຄົນຕະຫຼອດ, ແລກໆແມ່ກໍ່ບໍ່ໄດ້ຫວັງວ່າລູກຈະໄດ້ພາສາອັງກິດໄວປານນີ້ ແຕ່ຫຼັງຈາກທີ່ໄດ້ເບິ່ງຄິບທີ່ທາງ ພິງກຸເຮັດອອກມາ ປະກົດວ່າ ລູກຮູ້ຄໍາສັບຫຼາຍຄໍາແລ້ວ ແລະ ທຸກຄັ້ງທີ່ຮຽນໃນຫ້ອງ ລູກຈະມີຮອຍຍີ້ມຕະຫຼອດເວລາ ແລະ ສໍາລັບຜູ້ເປັນແມ່ໄດ້ເຫັນເທົ່ານີ້ກໍ່ດີໃຈທີ່ສຸດແລ້ວ. ຂອບໃຈ ໂຮງຮຽນ ພິງກູ ທີ່ເຮັດໃຫ້ເດັກມ່ວນ ແລະ ມັກໃນການຮຽນພາສາອັງກິດ",
+        "ເປັນບ່ອນຮຽນພາສາອັງກິດທີ່ມ່ວນເພາະມີກິດຈະກໍາທີ່ເດັກນ້ອຍມັກຫລາກຫລາຍຮູບແບບ ບໍ່ວ່າຈະເປັນການຫລິ້ນເກມ, ຟັງເພງ, ເຕັ້ນ...ແລະ ທີ່ສໍາຄັນແມ່ນໄດ້ຮຽນກັບຄູ Native ເຈົ້າຂອງພາສາເຊິ່ງຈະຊ່ວຍໃຫ້ເດັກໄດ້ຈື່ຈໍາສໍານຽງທີ່ຖືກຕ້ອງຕັ້ງແຕ່ຍັງນ້ອຍ ຫລານມາຮຽນກະຮູ້ສຶກວ່າເພິ່ນມ່ວນ ກ້າສະແດງອອກ ແລະ ມີເວົ້າພາສາອັງກິດໄດ້ດີຂຶ້ນ"
       ]
     },
     students: {

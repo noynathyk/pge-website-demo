@@ -7,14 +7,15 @@ import HeroSection from './components/HeroSection';
 import BenefitsSection from './components/BenefitsSection';
 
 // Lazy loaded components (below the fold)
-const IntroSections = lazy(() => import('./components/IntroSections'));
-const AboutSection = lazy(() => import('./components/AboutSection'));
-const ProgramsSection = lazy(() => import('./components/ProgramsSection'));
-const TeamSection = lazy(() => import('./components/TeamSection'));
-const StudentsSection = lazy(() => import('./components/StudentsSection'));
-const ParentsSection = lazy(() => import('./components/ParentsSection'));
-const ContactSection = lazy(() => import('./components/ContactSection'));
-const Footer = lazy(() => import('./components/Footer'));
+import IntroSections from './components/IntroSections';
+import AboutSection from './components/AboutSection';
+import ProgramsSection from './components/ProgramsSection';
+import TeamSection from './components/TeamSection';
+import StudentsSection from './components/StudentsSection';
+import ParentsSection from './components/ParentsSection';
+import ContactSection from './components/ContactSection';
+import Footer from './components/Footer';
+
 
 export default function App() {
   const [lang, setLang] = useState<Language>('en');

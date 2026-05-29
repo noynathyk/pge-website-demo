@@ -1,56 +1,40 @@
-# Deploying Pingu's English Laos to CloudCannon
+# Deploying Pingu's English Laos to CloudCannon (Direct Upload Method)
 
-This guide will walk you through deploying your React Vite application to CloudCannon. 
+If you prefer to manually upload your built website instead of connecting it to GitHub, CloudCannon makes this very easy through their drag-and-drop feature. Here are the exact steps:
 
-## 1. Prerequisites (Already Completed)
-We have already prepared the necessary files in your repository for a smooth deployment:
-- **`cloudcannon.config.yml`**: Added to the root of your project. This explicitly tells CloudCannon how to build your site (`npm run build`) and where to find the output folder (`dist`).
-- **`vite.config.ts` Update**: We updated the `base` path configuration. Previously, it was hardcoded to `/pge-website-demo/` for GitHub Pages. It is now set to intelligently use `/` by default for CloudCannon so your assets (CSS, Images, JS) load correctly.
+## 1. Build the Website Locally
+Before you can drag and drop your site, you need to compile the source code into a deployable folder (`dist`).
 
-## 2. Push Your Changes to GitHub
-Before heading to CloudCannon, make sure your latest code is pushed to your GitHub repository.
-
-1. Open your terminal in the project directory.
-2. Run the following commands:
+1. Open your terminal in your project folder (`/Users/noynathykhamchalern/Documents/PGE Website/Web Modern2/pingu's-english-laos/`).
+2. Run the build command:
    ```bash
-   git add .
-   git commit -m "Add CloudCannon configuration and update base path"
-   git push origin main
+   npm run build
    ```
-   *(Note: replace `main` with your branch name if you are using a different one, like `master`)*
+3. Once finished, a new folder named **`dist`** will be created in your project directory. This folder contains the final, minified HTML, CSS, and JavaScript files for your website.
 
-## 3. Create a Site in CloudCannon
-1. Go to [CloudCannon](https://app.cloudcannon.com/) and log in or create an account.
-2. In your CloudCannon dashboard, click the **"Add Site"** or **"Create Site"** button.
-3. Choose **"Build with your own files"** and select **"GitHub"** as your source provider.
-4. Authorize CloudCannon to access your GitHub repositories if you haven't already.
-5. Select the repository containing your Pingu's English Laos website.
-6. Select the branch you want to deploy (e.g., `main`).
+## 2. Create the Site on CloudCannon
+1. Go to [CloudCannon](https://app.cloudcannon.com/) and log in.
+2. In your dashboard, click **Add Site** or **Create Site**.
+3. When asked how you want to build your site, select **"Upload a folder"** (or similar drag-and-drop option).
 
-## 4. Configure the Build
-CloudCannon should automatically detect that this is a Vite project thanks to the `cloudcannon.config.yml` file. However, verify the following settings on the configuration screen:
+## 3. Upload the `dist` Folder
+1. CloudCannon will provide a drag-and-drop area.
+2. Open **Finder** on your Mac and navigate to your project folder.
+3. Locate the **`dist`** folder you just generated.
+4. **Drag and drop the entire `dist` folder** into the CloudCannon upload area.
+   - *Alternatively, CloudCannon might ask you to zip the folder first. If so, right-click the `dist` folder in Finder, select "Compress 'dist'", and upload the resulting `.zip` file.*
 
-- **Site Name**: Give your site a name (e.g., `pingus-english-laos`).
-- **Build Command**: `npm run build`
-- **Output Path**: `dist`
-- **Install Command**: `npm install` 
-  *(If your project uses `yarn` or `pnpm`, change this to `yarn install` or `pnpm install` respectively, but `npm install` is standard for your project based on `package.json`)*
+## 4. Deploy and View
+1. Because you are uploading pre-built files (the `dist` folder), CloudCannon does not need to run any build commands!
+2. It will process the files and immediately give you a testing URL (e.g., `random-word.cloudcannon.app`).
+3. Click the URL to see your live website.
 
-## 5. Build and Deploy
-1. Click **"Build Site"** or **"Create Site"**.
-2. CloudCannon will start cloning your repository, installing dependencies, and running the Vite build process.
-3. You can watch the output in the **Status** or **Build** tab. It should take around 1-2 minutes.
-4. Once the build is marked as **Successful**, CloudCannon will give you a testing URL (e.g., `random-word.cloudcannon.app`).
-5. Click on the URL to view your live website!
-
-## 6. (Optional) Custom Domain
-If you have a custom domain for Pingu's English Laos (e.g., `pingusenglish.la`):
-1. In your CloudCannon site dashboard, go to **Settings > Hosting > Domain**.
-2. Enter your custom domain and click **Add Domain**.
-3. Follow the on-screen instructions to update your DNS records (adding A records or CNAME records) with your domain provider to point to CloudCannon.
-4. CloudCannon will automatically provision an SSL certificate for HTTPS once the DNS propagates.
+## 5. (Optional) Custom Domain
+To use a real domain name (e.g., `pingusenglish.la`):
+1. In your CloudCannon dashboard, go to **Settings > Hosting > Domain**.
+2. Enter your custom domain and follow the instructions to update your DNS records with your domain provider.
+3. CloudCannon will automatically secure it with HTTPS.
 
 ---
-> [!NOTE] 
-> **Important Note on GitHub Pages vs CloudCannon**
-> If you ever need to deploy back to GitHub Pages, you will need to set the environment variable `VITE_BASE_PATH=/pge-website-demo/` when building, or change the `base` path in `vite.config.ts` back. For CloudCannon, no further action is needed!
+> [!TIP]
+> **Updating the site in the future:** Whenever you make changes to the code, simply run `npm run build` again and upload the fresh `dist` folder to the same site in CloudCannon to overwrite the old files.
