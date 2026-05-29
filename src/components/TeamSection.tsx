@@ -8,7 +8,7 @@ const TeamSection = memo(function TeamSection({ t }: { t: any }) {
         <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-10">
           <div className="max-w-2xl">
             <h2 className="text-5xl lg:text-7xl text-pingu-purple mb-6 uppercase leading-none">{t.team.title}</h2>
-            <p className="text-xl text-slate-500 font-bold">{t.team.subtitle}</p>
+            <p className="text-xl text-slate-500 font-medium">{t.team.subtitle}</p>
           </div>
           <div className="w-20 h-20 bg-pingu-blue rounded-3xl flex items-center justify-center text-white rotate-12" aria-hidden="true">
             <GraduationCap className="w-10 h-10" />

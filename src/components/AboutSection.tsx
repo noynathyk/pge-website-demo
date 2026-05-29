@@ -66,7 +66,7 @@ const AboutSection = memo(function AboutSection({ t }: { t: any }) {
           <div className="p-12 lg:p-20 flex flex-col justify-center order-2 lg:order-1">
             <Quote className="w-16 h-16 text-pingu-blue-light mb-8 opacity-50" aria-hidden="true" />
             <h3 className="text-4xl lg:text-5xl mb-8 italic">{t.about.directorTitle}</h3>
-            <p className="text-xl leading-relaxed font-semibold opacity-90">"{t.about.directorMessage}"</p>
+            <p className="text-xl leading-relaxed font-medium opacity-90">"{t.about.directorMessage}"</p>
           </div>
           <div className="relative order-1 lg:order-2 min-h-[400px]">
             <img

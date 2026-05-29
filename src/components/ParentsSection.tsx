@@ -23,7 +23,7 @@ const ParentsSection = memo(function ParentsSection({ t }: { t: any }) {
                 />
               </div>
               <h4 className="text-3xl mb-4 italic leading-tight">{tip.title}</h4>
-              <p className="text-sm font-bold opacity-80 leading-relaxed uppercase tracking-widest">{tip.desc}</p>
+              <p className="text-sm font-medium opacity-80 leading-relaxed uppercase tracking-widest">{tip.desc}</p>
             </div>
           ))}
         </div>
@@ -32,7 +32,7 @@ const ParentsSection = memo(function ParentsSection({ t }: { t: any }) {
           <div className="w-16 h-16 shrink-0 text-pingu-blue shadow-[0_0_40px_rgba(7,159,195,0.3)] rounded-full flex items-center justify-center border-4 border-pingu-blue" aria-hidden="true">
             <Star className="w-8 h-8 fill-pingu-blue" />
           </div>
-          <p className="text-2xl lg:text-3xl italic font-semibold leading-relaxed">"{t.parents.testimonial}"</p>
+          <p className="text-2xl lg:text-3xl italic font-medium leading-relaxed">"{t.parents.testimonial}"</p>
         </div>
       </div>
     </section>

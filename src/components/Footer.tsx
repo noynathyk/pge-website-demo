@@ -44,7 +44,7 @@ const Footer = memo(function Footer({ t }: { t: any }) {
 
                 </div>
               </div>
-              <p className="text-lg text-slate-400 font-semibold leading-relaxed max-w-sm italic mb-8">"{t.footer.tagline}"</p>
+              <p className="text-lg text-slate-400 font-medium leading-relaxed max-w-sm italic mb-8">"{t.footer.tagline}"</p>
               <div className="space-y-2 text-slate-500 text-sm font-medium">
                 <p className="flex items-center gap-2"><MapPin className="w-4 h-4 text-pingu-blue" aria-hidden="true" /> {t.contact.address}</p>
                 <p className="flex items-center gap-2"><Phone className="w-4 h-4 text-pingu-blue" aria-hidden="true" /> {t.contact.phone}</p>

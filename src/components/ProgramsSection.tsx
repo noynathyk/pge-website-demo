@@ -9,7 +9,7 @@ const ProgramsSection = memo(function ProgramsSection({ t }: { t: any }) {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-5xl lg:text-7xl text-pingu-purple mb-6">{t.programs.title}</h2>
-          <p className="max-w-2xl mx-auto text-xl text-slate-500 font-bold">{t.programs.subtitle}</p>
+          <p className="max-w-2xl mx-auto text-xl text-slate-500 font-medium">{t.programs.subtitle}</p>
         </div>
 
         {/* Dynamic Category Selector switcher */}
@@ -138,7 +138,7 @@ const ProgramsSection = memo(function ProgramsSection({ t }: { t: any }) {
               {/* Four Levels header */}
               <div className="text-center mb-16">
                 <h3 className="text-4xl text-pingu-purple mb-4 leading-none">{t.programs.eltTitle}</h3>
-                <p className="max-w-2xl mx-auto text-lg text-slate-500 font-bold">{t.programs.eltSubtitle}</p>
+                <p className="max-w-2xl mx-auto text-lg text-slate-500 font-medium">{t.programs.eltSubtitle}</p>
               </div>
 
               <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-32">
